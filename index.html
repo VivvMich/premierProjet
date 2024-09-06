@@ -9,6 +9,7 @@
         <meta charset="utf-8">
         <meta description="Mon magnifique site que j'ai fait avec mon 
         formateur">
+        <link rel="stylesheet" href="style.css">
         <title>Mon super site</title>
     </head>
     <body>
@@ -84,4 +85,218 @@
             </li>
             <li>Dormir, encore</li>
         </ul>
+
+        <!-- LES TABLEAUX -->
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Nom</th>
+                    <th>Prénom</th>
+                    <th>Age</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Dans <tr> il y aura les informations d'une personne -->
+                <tr>
+                    <td>Momo</td>
+                    <td>Toto</td>
+                    <td>27 ans</td>
+                    <td>Momo@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Gertrude</td>
+                    <td>DaSilva</td>
+                    <td>87ans</td>
+                    <td>Gertrude55@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>DeathKight1878</td>
+                    <td>FreezerBooCell</td>
+                    <td>15 ans</td>
+                    <td>IKillNoob@yahoo.com</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nom</th>
+                    <th>Age</th>
+                    <th>Pays</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Carmen</td>
+                    <td>33 ans</td>
+                    <td>Espagne</td>
+                </tr>
+                <tr>
+                    <td>Michelle</td>
+                    <td>26 ans</td>
+                    <td>Etats-Unis</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- FUSION DE CASE -->
+        <br>
+        <table>
+            <tr>
+                <th>Nom</th>
+                <td>Gilberte</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Tel</th>
+                <td>0458986532</td>
+            </tr>
+            <tr>
+                <td>0625478956</td>
+            </tr>
+        </table>
+<br>
+        <table>
+            <tr>
+                <th colspan="5">Titre de film</td>
+            </tr>
+            <tr>
+                <td>Django Unchained</td>
+                <td>La Mort au trousse</td>
+                <td>Le Retour du Jeudi</td>
+                <td>Barbie</td>
+                <td>5 eme élements</td>
+            </tr>
+        </table>
+        <br>
+
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="3">Enseignement obligatoire</th>
+                    <th>Spécialité</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="4">Mathématiques</td>
+                    <td rowspan="4">SC-Physique</td>
+                    <td rowspan="4">SVT</td>
+                    <td>ISN</td>
+                </tr>
+                <tr>
+                    <td>Maths</td>
+                </tr>
+                <tr>
+                    <td>Physiques</td>
+                </tr>
+                <tr>
+                    <td>SVT</td>
+                </tr>
+            </tbody>
+        </table>
+<br>
+        <table>
+            <thead>
+                <tr>
+                    <th rowspan="2"></th>
+                    <th colspan="2">Moyenne</th>
+                    <th rowspan="2">Yeux Rouges</th>
+                </tr>
+
+                <tr>
+                    <th>Hauteur</th>
+                    <th>Poids</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Males</th>
+                    <td>1.9</td>
+                    <td>0.003</td>
+                    <td>40%</td>
+                </tr>
+                <tr>
+                    <th>Femelles</th>
+                    <td>1.7</td>
+                    <td>0.002</td>
+                    <td>43</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+
+        <table>
+            <tbody>
+                <tr>
+                    <td rowspan="3">1</td>
+                    <td>2</td>
+                    <td colspan="2">3</td>
+                </tr>
+                <tr>
+                    <td colspan="3">4</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <td colspan="3" rowspan="2">8</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br>
+
+        <table>
+            <thead>
+                <tr>
+                    <th rowspan="2">Equipes</th>
+                    <th colspan="10">Janvier</th>
+                    <th rowspan="2"></th>
+                </tr>
+                <tr>
+                    <th colspan="2">Lundi</th>
+                    <th colspan="2">Mardi</th>
+                    <th colspan="2">Mercredi</th>
+                    <th colspan="2">Jeudi</th>
+                    <th colspan="2">Vendredi</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Equipe 1</td>
+                    <td colspan="6">Tache1</td>
+                    <td colspan="4">Tache2</td>
+                    <td rowspan="2">Semaine1</td>
+                </tr>
+
+                <tr>
+                    <td>Equipe2</td>
+                    <td colspan="5">Tache1</td>
+                    <td colspan="5">Tache2</td>
+                </tr>
+                <tr>
+                    <td>Equipe1</td>
+                    <td colspan="2">Tache3</td>
+                    <td colspan="6">Tache4</td>
+                    <td colspan="2">Tache5</td>
+                    <td rowspan="2">Semaine2</td>
+                </tr>
+                
+                <tr>
+                    <td>Equipe2</td>
+                    <td colspan="4">Tache3</td>
+                    <td colspan="6">Tache4</td>
+                </tr>
+            </tbody>
+        </table>
+
 </html>
