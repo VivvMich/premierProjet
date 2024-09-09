@@ -10,3 +10,26 @@ COMMENTAIRE DANS LE CSS
 table {
     border-collapse: collapse;
 }
+
+label, input {
+    display: block;
+}
+
+label {
+    margin-top: 10px;
+}
+
+/* Voici un exemple de selecteur */
+
+input[type="checkbox"], 
+input[type="checkbox"] + label, 
+input[type="radio"], 
+input[type="radio"] + label {
+    margin-top: 15px;
+    display: inline;
+}
+
+/* On cible les label et les input dans les li */
+li input, li label {
+    display: inline;
+}
