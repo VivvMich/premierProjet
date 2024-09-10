@@ -1,0 +1,41 @@
+h2 {
+    /* Ici c'est pour modifier la couleur de la police */
+    color: rgb(51, 84, 149);
+    /* Ici c'est pour colorier le cadre autour du texte (surligner) */
+    background-color: rgb(128, 165, 240);
+}
+
+.bleu {
+    color: rgb(51, 84, 149);
+}
+
+.bleu-fonce {
+    color: rgb(27, 45, 81);
+}
+
+.gras {
+    /* Ici on met la police en gras. */
+    font-weight: bold;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+tr:nth-child(2n) {
+    /* Avec cette pseudo-class on colorie le fond de tous les 2 tr */
+    background-color: rgb(184, 183, 182);
+}
+
+div {
+    margin-top: 2px;
+}
+
+img {
+    float: right;
+}
