@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <input type="number" id="nbr">
+    <button id="btn">Valider</button>
+    <button id="btn2">Pile ou Face</button>
+
+    <script>
+
+        //quand je click sur le bouton
+        const btn = document.getElementById("btn")
+        const btn2 = document.getElementById("btn2")
+        const nbr = document.getElementById("nbr")
+
+        btn.addEventListener("click", function() {
+        //ça lance le calcul(multiplication) du chiffre de l'input de 0 à 10
+            for(i = 0; i<=10; i++) {
+                console.log(`${nbr.value} fois ${i} est égale à ${nbr.value * i}`)
+            }
+        })
+        
+        /* 
+            // Symbole de verification
+        
+            On vérifie l'egalité sans la verification de type
+            de a à b
+            // a == b
+
+            on verifie que a est supérieur à b
+            a > b
+
+            on verifie que a est supérieur ou égal à b
+            a >= b
+
+            on verifie que a est inférieur à b
+            a < b
+
+            on verifie que a est inférieur ou égale à b
+            a <= b
+
+            on verifie que a n'est pas égale à b 
+
+            a != b
+
+            on verifie que a est strictement égale à b
+            lors de cette verification on verifie le type
+            a === b
+            
+        
+        
+        */
+
+        // pile ou face
+        // on ajoute un bouton et ça affiche aléatoirement pile ou face.
+        // dans un console.log
+
+        btn2.addEventListener("click", function() {
+         //let pileOuFace = Math.random() > 0.5 ? "pile" : "face"
+         
+         if (Math.random() > 0.5) {
+            console.log("pile")
+         }else {
+            console.log("face")
+         }
+         
+         //console.log(pileOuFace)
+
+
+
+        })
+
+
+    </script>
+    
+</body>
+</html>
